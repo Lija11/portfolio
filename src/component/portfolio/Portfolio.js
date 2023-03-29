@@ -28,7 +28,7 @@ const Portfolio = () => {
           <div className="text-left">
             <div className="image-content w-full rounded-xl overflow-hidden">
               <picture>
-                <img src="images/project.jpg" alt="" loading="lazy" />
+                <img src="images/chat.jpg" alt="" loading="lazy" />
               </picture>
             </div>
             <div>
@@ -49,7 +49,7 @@ const Portfolio = () => {
                 View Details
               </a> */}
               <a
-                href="https://inspiring-baklava-be592e.netlify.app/login"
+                href="https://realtime-chat-application1.netlify.app/message"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button text-[10px] lg:text-[12px]"
@@ -60,14 +60,16 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        {/* <div
+        <div
           data-aos="zoom-in-right"
           data-aos-duration="500"
           className="portfolio-card text-accent hover:text-white aos-init"
         >
           <div className="text-left">
             <div className="image-content w-full rounded-xl overflow-hidden">
-              <img src="images/project.jpg" alt="" />
+              <picture>
+                <img src="images/finsweet.jpg" alt="" loading="lazy" />
+              </picture>
             </div>
             <div>
               <h2 className="font-semibold text-sm my-4 text-secondary">
@@ -125,7 +127,7 @@ const Portfolio = () => {
                 View Details
               </a>
               <a
-                href="https://blood-buddies-donation.web.app/"
+                href="fastjao.netlify.app"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button text-[10px] lg:text-[12px]"
@@ -135,7 +137,7 @@ const Portfolio = () => {
               </a>
             </div>
           </div>
-        </div> */}
+        </div>
       </div>
       <SectionBorder />
     </div>
