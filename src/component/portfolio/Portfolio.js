@@ -89,7 +89,7 @@ const Portfolio = () => {
                 View Details
               </a>
               <a
-                href="https://bagsq12.web.app/"
+                href="https://finsweet11.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button text-[10px] lg:text-[12px]"
