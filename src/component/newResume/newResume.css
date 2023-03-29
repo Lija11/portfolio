@@ -1,0 +1,220 @@
+.tab-button {
+  align-items: center;
+  background: linear-gradient(-45deg, #21242800, #21242800);
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  z-index: 1;
+}
+
+.active-tab:after {
+  background: linear-gradient(-45deg, #19191b, #23272b);
+  border-radius: 5px;
+  bottom: 0;
+  content: "";
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.tab-button:hover:after {
+  opacity: 1;
+}
+
+.active-tab,
+.tab-button:hover {
+  box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+  color: #0097e6;
+}
+
+.tab-button-content {
+  background: #212428;
+  border-radius: 5px;
+  box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-container {
+  background: linear-gradient(-45deg, #21242800, #21242800);
+  border-radius: 14px;
+  box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+  padding: 30px;
+}
+
+.skill-container h2 {
+  color: #0097e6;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.skill-container p {
+  background: linear-gradient(145deg, #1e2024, #23272b);
+  box-shadow: 10px 10px 23px #1b1e21, -10px -10px 23px #272a2f;
+  color: #c4cfde;
+  padding: 1rem 2rem;
+}
+
+.hover\:bottom-2:hover {
+  bottom: 0.5rem;
+}
+
+.java i,
+.daisyUI i,
+.mongoose i {
+  color: rgb(234 179 8);
+}
+
+.html i,
+.reactQuery i,
+.dev i {
+  color: #dc2626;
+}
+
+.css i,
+.react i,
+.native i {
+  color: rgb(59 130 246);
+}
+
+.typescript .twoIcons {
+  background: rgb(59 130 246);
+}
+
+.es6 .twoIcons,
+.typescript .twoIcons {
+  font-size: 7px;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 2px;
+  padding-bottom: 0px;
+  border-radius: 2px;
+  color: black;
+  margin-right: 8px;
+}
+
+.es6 .twoIcons {
+  background: rgb(234 179 8);
+}
+
+.tailwind .reactIcons {
+  margin-right: 8px !important;
+  color: #3297a9;
+  font-size: 20px;
+}
+
+.node i,
+.mongoDB i {
+  color: rgb(34 197 94);
+}
+
+.bootstrap i,
+.axios .reactIcons {
+  color: #8713f4;
+  font-size: 18px;
+}
+.axios .reactIcons,
+.heroku .reactIcons,
+.vsCode .reactIcons,
+.netlify .reactIcons {
+  margin-right: 8px;
+}
+
+.vsCode .reactIcons,
+.netlify .reactIcons {
+  color: #2e84bb;
+  font-size: 20px;
+}
+
+.heroku .reactIcons {
+  color: #8713f4;
+}
+
+.stripe .reactIcons {
+  color: rgb(59 130 246);
+  margin-right: 8px;
+}
+
+.firebase .reactIcons {
+  background: rgb(234 179 8);
+}
+
+.git i {
+  color: rgb(249 115 22);
+}
+
+.figma .reactIcons {
+  color: #eb4c1c;
+}
+
+.timeline-card {
+  position: relative;
+}
+
+.timeline-card:before {
+  background: #212428;
+  border-radius: 5px;
+  box-shadow: 0 0 0 4px #000;
+  content: " ";
+  height: 8px;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  width: 8px;
+  z-index: 2;
+}
+
+.timeline-card:after {
+  background: #000;
+  content: " ";
+  height: 3px;
+  left: 2%;
+  position: absolute;
+  width: 88px;
+}
+
+.education-card {
+  align-items: left;
+  background: linear-gradient(-45deg, #212428, #212428);
+  border-radius: 12px;
+  bottom: 0;
+  box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  justify-content: left;
+  position: relative;
+  transition: bottom 0.3s ease-in-out;
+  width: 100%;
+  z-index: 1;
+}
+
+.education-card:after {
+  background: linear-gradient(-45deg, #19191b, #23272b);
+  border-radius: 12px;
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: all 0.3s ease-in-out;
+  z-index: -1;
+}
+
+.timeline-card:hover:before {
+  background: #0097e6;
+}
+
+.education-card:hover:after {
+  opacity: 1;
+}
