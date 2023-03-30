@@ -1,0 +1,9 @@
+.bottom-navigation {
+  background: linear-gradient(-45deg, #212428, #212428);
+  box-shadow: 5px 5px 10px #101113, -3px -3px 10px #32373d;
+}
+
+.bottomNav:hover {
+  color: #0080ff;
+  transition: 0.5s;
+}

@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar";
-import BottomNavbar from "../BottomNavbar";
+import BottomNavbar from "../navbar/BottomNavbar";
 
 const Nav = () => {
   return (
     <>
       <Navbar />
-      {/* <BottomNavbar /> */}
+      <BottomNavbar />
     </>
   );
 };

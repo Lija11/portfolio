@@ -4,13 +4,13 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer-content pb-10 -mt-10">
-      <footer className="footer flex justify-center items-center gap-24 p-10 text-neutral-content max-w-7xl mx-auto">
-        <div className="flex flex-col items-center justify-center">
+      <footer className="footer lg:flex justify-center items-center gap-24 p-10 text-neutral-content max-w-7xl mx-auto">
+        <div className="flex flex-col items-center justify-center mb-[60px] lg:mb-[0]">
           <h2 className="text-primary ">Liza Akter</h2>
           <p className="text-gray-600">All Rights Reserved @ Liza Akter</p>
         </div>
         <div>
-          <span className="footer-title text-primary">Social</span>
+          <span className="footer-title text-primary text-center">Social</span>
           <div className="flex gap-5  mt-[15px] text-primary">
             <a
               href="https://github.com/Lija11"

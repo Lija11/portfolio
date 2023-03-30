@@ -16,7 +16,7 @@ const NavHash = () => {
         <div className="navbar-end justify-end hidden w-full lg:flex">
           <div className="menu w-full flex py-2 justify-end menu-horizontal p-0">
             <Link
-              to="/landing#homepage"
+              to="/landing#home"
               // style={({ isActive }) => (isActive ? activeStyle : undefined)}
               className="px-4"
             >

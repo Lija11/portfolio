@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from "./component/Landing";
 import Home from "./component/Home";
 import React, { useEffect } from "react";
 import AOS from "aos";
@@ -23,9 +24,10 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <NavHash />
+        <Nav />
         <Routes>
-          <Route path="/landing" element={<Home />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/landing" element={<Landing />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/about" element={<About />} />
         </Routes>

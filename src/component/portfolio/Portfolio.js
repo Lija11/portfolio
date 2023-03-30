@@ -16,7 +16,7 @@ const Portfolio = () => {
           VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
         </p>
         <p className="text-accent font-bold text-3xl lg:text-5xl mb-10">
-          My Full Stack Projects
+          My Projects
         </p>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-10">
@@ -33,10 +33,10 @@ const Portfolio = () => {
             </div>
             <div>
               <h2 className="font-semibold text-sm my-4 text-secondary">
-                Forge The Drill
+                Realtime-Chat-App
               </h2>
               <h2 className="project-title text-accent font-semibold text-xl my-4">
-                Manufacturer Company Web App
+                Realtime Chat Application using React and Firebase
                 <i className="title-icon text-secondary ml-2 fa-solid fa-arrow-turn-up"></i>
               </h2>
             </div>
@@ -73,21 +73,21 @@ const Portfolio = () => {
             </div>
             <div>
               <h2 className="font-semibold text-sm my-4 text-secondary">
-                BagsQ
+                Finsweet
               </h2>
               <h2 className="project-title text-accent font-semibold text-xl my-4">
-                Stock Control And Product Management Website
+                Building stellar websites for early startups
                 <i className="title-icon text-secondary ml-2 fa-solid fa-arrow-turn-up"></i>
               </h2>
             </div>
             <div className="button-content flex justify-between mt-5">
-              <a
+              {/* <a
                 className="project-button text-[10px] lg:text-[12px]"
                 href="/project/2"
               >
                 <i className="text-sm text-secondary mr-2 fa-solid fa-circle-dot"></i>
                 View Details
-              </a>
+              </a> */}
               <a
                 href="https://finsweet11.netlify.app/"
                 target="_blank"
@@ -100,6 +100,7 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
+
         <div
           data-aos="zoom-in-right"
           data-aos-duration="500"
@@ -107,27 +108,29 @@ const Portfolio = () => {
         >
           <div className="text-left">
             <div className="image-content w-full rounded-xl overflow-hidden">
-              <img src="images/project.jpg" alt="" />
+              <picture>
+                <img src="images/fastjao.jpg" alt="" loading="lazy" />
+              </picture>
             </div>
             <div>
               <h2 className="font-semibold text-sm my-4 text-secondary">
-                Blood Buddies
+                Fast Jao
               </h2>
               <h2 className="project-title text-accent font-semibold text-xl my-4">
-                Blood Donation And Blood Receiving site
+                Enjoy! Hassle Free Delivery Services
                 <i className="title-icon text-secondary ml-2 fa-solid fa-arrow-turn-up"></i>
               </h2>
             </div>
             <div className="button-content flex justify-between mt-5">
-              <a
+              {/* <a
                 className="project-button text-[10px] lg:text-[12px]"
-                href="/project/3"
+                href="/project/2"
               >
                 <i className="text-sm text-secondary mr-2 fa-solid fa-circle-dot"></i>
                 View Details
-              </a>
+              </a> */}
               <a
-                href="fastjao.netlify.app"
+                href="https://fastjao.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
                 className="project-button text-[10px] lg:text-[12px]"

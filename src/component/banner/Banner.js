@@ -6,7 +6,7 @@ import TypeAni from "./TypeAni";
 
 const Banner = () => {
   return (
-    <div id="homepage">
+    <div id="home">
       <div className="min-w-screen p-5">
         <div className="min-h-screen">
           <div className="max-w-7xl mx-auto mt-16 flex flex-col-reverse lg:flex-row justify-between items-center">
