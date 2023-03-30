@@ -3,7 +3,7 @@ import { HashLink as Link } from "react-router-hash-link";
 
 const NavHash = () => {
   return (
-    <div className="text-primary active z-50">
+    <div className="text-primary">
       <div className="max-w-7xl mx-auto py-5 flex">
         <div className="navbar-logo w-full lg:w-1/4">
           <div className=" avatar w-full px-4 flex items-center justify-between lg:justify-start">
