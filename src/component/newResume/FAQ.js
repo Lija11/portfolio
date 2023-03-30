@@ -51,7 +51,7 @@ const FAQ = () => {
             <>
               <label
                 // className="tab-button py-7 px-14  text-xs lg:text-base active-tab w-1/3"
-                className="tab-buttno py-7 px-14  text-xs lg:text-base active-tab w-1/3"
+                className="tab-buttno py-7 px-[10px] lg:px-14  text-xs lg:text-base active-tab w-1/3"
                 onClick={() => handleFAQ(index)}
                 key={index}
               >

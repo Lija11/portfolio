@@ -5,9 +5,7 @@ import BottomNavbar from "../navbar/BottomNavbar";
 const Nav = () => {
   return (
     <>
-      <div className=" active z-50">
-        <Navbar />
-      </div>
+      <Navbar />
       {/* <BottomNavbar /> */}
     </>
   );

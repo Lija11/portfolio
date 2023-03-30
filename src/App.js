@@ -15,6 +15,7 @@ import Footer from "./component//footer/Footer";
 import Blog from "./blog/Blog";
 import NavHash from "./component/navbar/NavHash";
 import About from "./component/about/About";
+import BottomNavbar from "./component/navbar/BottomNavbar";
 
 function App() {
   useEffect(() => {
@@ -24,7 +25,8 @@ function App() {
   return (
     <div className="app">
       <BrowserRouter>
-        <Nav />
+        <NavHash />
+        <BottomNavbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/landing" element={<Landing />} />

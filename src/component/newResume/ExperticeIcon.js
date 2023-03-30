@@ -38,13 +38,6 @@ const ExperticeIcon = () => {
           <div className="tailwind rest">
             <ResumeIcon reactIcon={<AiFillCloud />} text="Rest API" />
           </div>
-          <div className="es6 express">
-            <ResumeIcon
-              doubleIcon1=" fa-solid fa-e "
-              doubleIcon2="fa-solid fa-x"
-              text="Express.js"
-            />
-          </div>
         </div>
       </div>
     </>

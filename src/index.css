@@ -67,7 +67,7 @@ li {
 .resumeBtnFront {
   display: block;
   position: relative;
-  padding: 12px 27px;
+  padding: 12px 22px;
   border-radius: 12px;
   font-size: 1.1rem;
   color: white;
@@ -80,7 +80,7 @@ li {
 @media (min-width: 768px) {
   .resumeBtnFront {
     font-size: 1.25rem;
-    padding: 12px 42px;
+    padding: 12px 30px;
   }
 }
 
@@ -279,7 +279,7 @@ li {
 .active {
   backdrop-filter: blur(5px);
   background-color: #212428cb;
-  position: sticky;
+  /* position: sticky; */
   top: 0;
   transition: top 0.5s ease-in;
 }

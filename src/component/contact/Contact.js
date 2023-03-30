@@ -5,12 +5,8 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <div id="contact" className="max-w-7xl mx-auto p-[30px] lg:p-30px]">
-      <div
-        data-aos="zoom-in"
-        data-aos-duration="500"
-        className="aos-init aos-animate"
-      >
+    <div id="contact" className="max-w-7xl mx-auto px-[30px] lg:p-[30px]">
+      <div>
         <p className="text-xs lg:text-sm text-secondary uppercase mb-[13px]">
           Contact
         </p>
@@ -78,7 +74,7 @@ const Contact = () => {
         </div>
         <ContactForm />
       </div>
-      <SectionBorder />
+      <div className="w-full max-w-7xl mx-auto bg-black h-[1px] my-10 lg:mt-20 lg:mb-20"></div>
     </div>
   );
 };
