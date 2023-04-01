@@ -39,7 +39,7 @@ const Banner = () => {
                   data-aos-duration="1000"
                   className="aos-init aos-animate"
                 >
-                  <a href="https://drive.google.com/file/d/1YL9Vqn8aBaS0F8xo-eWu4DIQq9Z6DwkX/view">
+                  <a href="https://drive.google.com/file/d/1ZkCUVKogZY75BELlxSx8HBvPlWblG7JS/view?usp=share_link">
                     <button className="resumeBtn">
                       <span className="resumeBtnShadow"></span>
                       <span className="resumeBtnEdge"></span>
