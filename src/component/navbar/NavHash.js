@@ -7,6 +7,9 @@ const NavHash = () => {
       <div className="max-w-7xl mx-auto py-5 flex">
         <div className="navbar-logo w-full lg:w-1/4">
           <div className=" avatar w-full px-4 flex items-center justify-between lg:justify-start">
+            <div className="logo">
+              <img className="w-[50px]" src="images/logo.png" alt="logo" />
+            </div>
             <h4 className="text-sm lg:text-lg uppercase font-extrabold font-mono ">
               Lija
             </h4>
